@@ -3,9 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Etch-a-Sketch</title>
+    <title>Drawing Thing...</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
 </head>
 <body>
-    
+    <h1>DRAWING THING . . .</h1>
+    <div class="container"></div>
+    <div class="ui">
+        <label for="gridSize">Grid Size</label>
+        <input type="range" id="gridSize" min="4" max="100" step="4" value="48">
+        <label for="gridSize" id="gridSizeLbl">48x48</label>
+        <button type="button" id="resetBtn">Reset Grid</button>
+    </div>
 </body>
 </html>

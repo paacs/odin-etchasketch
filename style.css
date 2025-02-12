@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+body {
+    background-color: rgb(33, 33, 99);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+h1 {
+    color: gold;
+    text-align: center;
+    margin: 48px;
+}
+
+.container {
+    background-color: white;
+    margin: auto;
+    border: 20px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 32px;
+}
+
+.ui {
+    margin: auto;
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    color: white;
+    font-size: 24px;
+}
+
+#gridSize {
+    width: 200px;
+    accent-color: rgb(255, 0, 106);
+}
+
+#gridSizeLbl {
+    width: 100px;
+}
+
+button {
+    background-color: gold;
+    color: rgb(33, 33, 99);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 5px 10px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    color: rgb(255, 0, 106);
+}
